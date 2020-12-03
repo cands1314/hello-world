@@ -3,10 +3,20 @@
 
 # 可以使用 HTML 来编写 Markdown
 
-[MarkDown方式的锚点1](#markdown1)  
-<a href='markdown2'>MarkDown锚点2</a>
+# 目录
+* [标题](#title)
+* [段落](#paragraph)
+* [字体](#fontsize)
+* [分割线](#divider)
+* [删除线](#strikeout)
+* [下划线](#underline)
+* [脚注](#footnote)
+* [脚注](#list)
+* [链接](#link)
+* [图片](#image)
+* [表格](#table)
 
-# 标题
+# <a id="title">标题</a>
 使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。
 
 # 一级标题 
@@ -20,13 +30,13 @@
 -
 其他方式这里没有必要输入多个符号
 
-# 段落
+# <a id='paragraph'>段落</a>
 段落一，输入两个以上的空格  
 段落二，输入一个空行
 
 段落三
 
-# 字体
+# <a id='fontsize'>字体</a>
 字体使用特殊的符号包围以此来展示
 *使用 * 来展示斜体*，  
 _使用 _ 来展示斜体斜体文本_  
@@ -35,8 +45,9 @@ __使用 __ 来展示斜体粗体文本__
 ***使用 *** 来展示斜体粗斜体文本***  
 ___使用 ___ 来展示斜体粗斜体文本___  
 
-# 分割线
-***
+# <a id="divider">分割线</a>
+使用三个以上 * 或者 - 或者 _ 
+*** 
 
 * * *
 
@@ -46,14 +57,14 @@ ___使用 ___ 来展示斜体粗斜体文本___
 
 ----------
 
-# 删除线
+# <a id="strikeout">删除线</a>
 ~~使用 ~~ 来展示删除线 ~~ 
 
-# 下划线
+# <a id="underline">下划线</a>
 
-# 脚注
+# <a id="footnote">脚注</a>
 
-# 列表
+# <a id="list">列表</a>
 * 无序列表使用*
 * 第二项
 * 第三项
@@ -77,19 +88,20 @@ ___使用 ___ 来展示斜体粗斜体文本___
 2. 第二项：
     - 第二项嵌套的第一个元素
     - 第二项嵌套的第二个元素
+    
 # 区块
 > 区块开始
 
-# 链接
+# <a id="link">链接</a>
 [百度](https://www.baidu.com/)  
 <https://www.baidu.com/>  
 https://www.baidu.com/ 
 <a href='https://www.baidu.com/'>百度</a>
 
-# 图片
+# <a id="image">图片</a>
 <img width="20%" src="https://avatars2.githubusercontent.com/u/37071485?s=460&u=0efbaa82dfe3b86e00638e565bbd12676b6877f7&v=4" alt='小猪头像'/>
 
-# 表格
+# <a id="table">表格</a>
 <table>
     <tr>
         <td>姓名</td>
@@ -103,7 +115,3 @@ https://www.baidu.com/
     </tr>
 </table
     
-    
-<a name='markdown1'>MarkDown锚点1</a>
-
-<a name='markdown2'>MarkDown锚点2</a>
